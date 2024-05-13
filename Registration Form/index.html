@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+        <meta name="description" content="Registration Form">
+    </head>
+    <body style="background-color: #4F709C; color: aliceblue;">
+        <form>
+            <h1 style="background-color: #88b3eb;"> Bible School Registration Form </h1>
+
+            <label for="Name">Child's Name</label>
+            <input id="Name" type="text" name="firstName" value="firstName" placeholder="First Name" />
+            <input id="Name" type="text" name="lastName" value="lastName" placeholder="Last Name" />
+
+            <br/> <br/>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" value="password" placeholder="password" />
+            
+            <br/><br/>
+            
+            <label for="dateofbirth">Date of birth</label>
+            <input id="dateofbirth" type="date" name="dateofbirth" value="dateofbirth"/>
+
+            <input id="age" type="number" name="age" value="age" placeholder="Age" />
+
+            <h3>Select Gender</h3>
+            <input type="radio" name="gender" value="Male">
+            <label>Male</label>
+            <br>
+            <input type="radio" name="gender" value="Female">
+            <label>Female</label>
+            <br> <br>
+
+            <h3>Select Hobbies</h3>
+            <input type="checkbox" name="hobbies" value="Drawing">
+            <label>Drawing</label>
+            <br>
+            <input type="checkbox" name="hobbies" value="Reading">
+            <label>Reading</label>
+            <br> 
+            <input type="checkbox" name="hobbies" value="Writting">
+            <label>Writting</label>
+            <br> <br> 
+
+            <h3>Enter Address Info</h3>
+            <label for="StreetNunmber">Street Number</label>
+            <input id="StreetNumber" type="number" name="StreetNumber" value="" placeholder="Street Number" />
+            
+            <label for="StreetName">Street Name</label>
+            <input id="StreetName" type="text" name="StreetName" value="" placeholder="Street Name" />
+
+            <label for="governate">Governate</label>
+
+            <select id="governate">
+            <option value="Banisuif" selected>Banisuif</option>
+            <option value="Cairo">Cairo</option>
+            <option value="Sohag">Sohag</option>
+            <option value="Giza">Giza</option>
+            </select>
+
+            <br> <br>
+
+            <label for="image">Upload Child Image</label>
+            <input id="image" type="file" name="child'simage" />
+
+            <br> <br>
+
+            <label for="SendEmail">Send Email</label>
+            <textarea id="SendEmail" placeholder="Send Email"></textarea>
+
+            <br> <br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
