@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+body{
+    background-color: #c39ae1;
+}
+/***************  Navbar   ************************/
+nav .navbar-brand{
+    color: #6e1baa;
+}
+nav .nav-link{
+    color: black !important;
+}
+nav .nav-link:hover{
+    color: #6e1baa !important;
+}
+/****************   Home   ************************/
+#home{
+    background-color: #f9f9f9;
+}
+.section .content{
+    float: left;
+    width: 70%;
+    padding: 5%;
+}
+.section .content .description{
+    width: 50%;
+    line-height: 40px;
+}
+.section .image{
+    float: right;
+    width: 30%;
+}
+.section .image img{
+    width: 100%;
+    border-radius: 100%;
+}
+.section .section__container .action__btns button {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 16px 32px;
+    outline: none;
+    border: 2px solid #6e1baa;
+    color: aliceblue;
+    background-color: #6e1baa;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.section .section__container .action__btns button:hover{
+    color: #6e1baa;
+    background-color: aliceblue;
+}
+.section .section__container .content .subtitle{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/************** Projects ***********/
+#projects{
+    background-color: #c39ae1;
+}
+#projects .card{
+    float: left;
+    margin: 2%;
+    width: 10% !important;
+    height: auto !important;
+}
+#projects h4{
+    margin: 2%;
+    color: aliceblue;
+    text-align: center;
+}
+/************** Skills ***********/
+#skills{
+    width: 100%;
+    background-color: #c39ae1;
+    text-align: center;
+}
+#skills h4{
+    margin: 2%;
+    color: aliceblue;
+    text-align: center;
+}
+#skills .progress{
+    margin-top: 2%;
+    margin: 2%;
+}
+/************** Contact ***********/
+#contact{
+    text-align: center;
+    padding: 2%;
+    background-color: #c39ae1;
+}
+#contact h4{
+        margin: 2%;
+        color: aliceblue;
+}
+#contact button {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 1%;
+    padding: 8px 16px;
+    border: 2px solid #6e1baa;
+    color: aliceblue;
+    background-color: #6e1baa;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#contact button:hover{
+    background-color: #c39ae1;
+}
